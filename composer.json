@@ -1,0 +1,20 @@
+{
+    "name": "mistermoper/opendatasoft-php-client",
+    "description": "Opendatasoft client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Omar,",
+            "email": "omarmoper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"OpendataSoftPhpClient\\": "src/"}
+    }
+
+}
